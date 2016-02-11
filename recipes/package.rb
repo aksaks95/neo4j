@@ -8,7 +8,7 @@ apt_repository 'neo4j' do
 
  
  package "Installing_neo4j" do
-	package_name "neo4j"
-	# version "2.3.2"
-	action :install
-end
+    package_name "neo4j"
+    # version "2.3.2"
+    action :install
+ end
