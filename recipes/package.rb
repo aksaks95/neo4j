@@ -1,5 +1,5 @@
 apt_repository 'neo4j' do
-	repo_name "neo4j"
+    repo_name "neo4j"
     uri node['neo4j']['uri']
     components node['neo4j']['components']
     key node['neo4j']['key']
